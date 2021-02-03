@@ -2,70 +2,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100%;
-    background-color: #1d212b;    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #1d212b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-    font-size: 90px;
-    margin: 3rem;
-    font-family: 'Indie Flower';
-    text-transform:uppercase;
-    font-size:60px;
-    color: 	#FEFEFE;
-    text-shadow:
-    0px 0px 20px #b0ffb4,
-    0px 0px 60px #72EFDD,
-    0px 0px 70px #bdffc1,
-    0px 0px 80px #72EFDD,
-    0px 0px 90px #72EFDD;  }
+  font-size: 90px;
+  margin: 3rem;
+  font-family: 'Indie Flower';
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #fefefe;
+  text-shadow: 0px 0px 20px #b0ffb4, 0px 0px 60px #72efdd, 0px 0px 70px #bdffc1,
+    0px 0px 80px #72efdd, 0px 0px 90px #72efdd;
+}
 
 .container {
-    width: 700px;
-    height: 700px;
-    display: grid;
-    -webkit-box-shadow:0 0 200px #7400B8; 
-    -moz-box-shadow: 0 0 200px #7400B8; 
-    box-shadow: 0 0 200px #7400B8;
+  width: 700px;
+  height: 700px;
+  display: grid;
+  -webkit-box-shadow: 0 0 200px #7400b8;
+  -moz-box-shadow: 0 0 200px #7400b8;
+  box-shadow: 0 0 200px #7400b8;
 }
 
 .container div {
-    background-color: #fff;
-    border: 1px solid rgba(0,0,0,.1);
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .buttons {
-    width: 700px;
-    display: flex;
-    justify-content: space-between;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
-    margin: 0 1rem 1rem 0;
-    height: 25px;
-    font-family: Roboto;
-    color: white;
-    font-size: 14px;
-    border-radius: 4px;
-    border: solid thin;
-    outline: none;
-    background-color: #1d212b;
+  margin: 0 1rem 1rem 0;
+  height: 25px;
+  padding: 0px 10px;
+  font-family: Roboto;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+  border: solid thin;
+  outline: none;
+  background-color: #1d212b;
 }
 
 button.active {
-    background-color: #72EFDD;
-    color: black;
+  background-color: #72efdd;
+  color: black;
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 5em;
 }
